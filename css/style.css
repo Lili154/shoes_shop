@@ -1,0 +1,327 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.bag{
+	width: 369px;
+    flex-direction: column;
+    position: absolute;
+    left: 69%;
+    top:15px;
+    display: none;
+    z-index: 90;
+}
+#openShop{
+	cursor: pointer;
+}
+.bag>.d1{
+	width: 369px;
+    color: white;
+    height: 89px;
+    background-color: black;
+}
+.bag>.d1>#close{
+    padding-top: 21px;
+    padding-right: 10px;
+    background-color: black;
+    border: none;
+    color: white;
+    font-size: 25px;
+    padding-left: 5%;
+    cursor: pointer;
+}
+.bag>.d1>h3{
+	text-align: center;
+    margin-top: -29px;
+    color: white;
+    font-size: 25px;
+}
+.bag>.d1{
+	background-color: black;
+    height: 100px;
+}
+.bag>.d2{
+	height: 700px;
+	background-color: white;
+	margin-top: -19px;
+    padding-top: 5%;s
+}
+.bag>.d2>h3{
+	margin: 20px auto;
+	text-align: center;
+}
+nav{
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+	background-color:black;
+	margin: 0 auto;
+	padding:2%;
+	position: sticky;
+	top: 0;
+	z-index: 5;
+	
+	
+}
+.fa-shopping-bag{
+	color: orange;
+	margin-top: -3px;
+	font-size: 30px;
+}
+#forCount{
+color: white;
+position: relative;
+left: -43px;
+top: 8px;
+font-weight: bold;
+font-size: 18px;
+}
+
+nav>div{
+	display: flex;
+	margin-left: 55px;
+}
+nav>div>p{
+	color:white ;
+}
+nav>div>p:first-child{
+	text-decoration: line-through;
+	font-size: 30px;
+}
+nav>div>p:last-child{
+	font-size: 20px;
+	margin-top: 5px;
+	margin-left: 5px;
+
+}
+nav>ul{
+	padding-right: 100px;
+	display: flex;
+	justify-content: space-around;
+	width: 50%;
+
+}
+nav>ul>li{
+	list-style: none;
+	margin-top: 5px;
+	margin-right: 10px;
+	display: flex;
+	justify-content: space-between;
+}
+nav>ul>li>a{
+
+	text-decoration: none;
+	color:white;
+}
+.dropdown{
+	display: none;
+	position: absolute;
+	left: -20px;
+
+}
+nav>ul>li:hover .dropdown{
+	display: block;
+	text-decoration: none;
+}
+nav>ul>li{
+	position:relative;
+}
+.dropdownmenu{
+	width: 130px;
+	margin-top: 50px;
+	padding-left: 17%;
+	background-color: black;
+}
+.dropdownmenu>ol{
+	list-style: none;
+}
+.dropdownmenu>ol>li>a{
+	color:white;
+	text-decoration: none;
+	line-height: 30px;
+}
+.info{
+	background-image: url("../84770f_97c4071f14984e90b64d5ea5670306b3.webp");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	height: 600px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.info>.but1{
+	text-align: center;
+	height: 50px;
+	width: 400px;
+	font-size: 20px;
+	z-index: 2;
+	left: 36%;
+	top: 50%;
+}
+.but1:hover{
+	background-color: black;
+}
+.info>.but1>a{
+	text-decoration: none;
+	color: grey;
+}
+
+.man{
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+	margin: 0 auto;
+	position: relative;
+}
+.man>.img1{
+	height: 500px;
+	width: 50%;
+}	
+.man>.img2{
+	height: 500px;
+	width: 50%;
+}
+.man>.but{
+	height: 50px;
+	width: 400px;
+	font-size: 20px;
+	text-decoration: none;
+	color: black;
+	position: absolute;
+	left: 36%;
+	top: 50%;
+}
+.but:hover{
+	background-color: black;
+}
+.man>.but>a{
+	text-decoration: none;
+	color:grey;
+}
+.img1:hover{
+	opacity: 0.4;
+}
+.img2:hover{
+	opacity: 0.4;
+}
+.img3{
+	width: 100%;
+}
+.block{
+    width: 90%;
+	margin: 0 auto;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+.block>div{
+	width: 31%;
+	overflow: hidden;
+}
+.block>div>a>img{
+	width: 100%;
+	transition: all 2s;
+}
+.block>div>a>img:hover{
+	transform: scale(1.1);
+}
+.footer{
+	background-image: url("../image5.jpg");
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+.footer>p{
+	text-decoration: line-through;
+	padding-top: 70px;
+	font-size: 250px;
+	text-align: center;
+	color: white;
+	position: relative;
+}
+.footer>.footer1{
+	display: flex;
+	justify-content: space-around;
+	
+}
+.footer>.footer1>div{
+	width: 31%;
+}
+.address{
+	margin-left: 120px;
+}
+
+.address>h1{
+	text-decoration: line-through;
+	font-size: 25px;
+	color: white;
+}
+.address>h6{
+	font-size: 15px;
+	color: white;
+	margin-top: 10px;
+}
+.address>.icon{
+	color: white;
+	font-size: 30px;
+}
+.latter>div>form{
+	display: flex;
+	margin-top: 25px;
+}
+.latter>div>form>div{
+	width: 180px;
+}
+.latter>h1{
+	text-decoration: line-through;
+	font-size: 25px;
+	color: white;
+	text-align: center;
+}
+.latter>div>form>div>input{
+	background-color:black;
+	color: white;
+	border: solid white;
+	height: 30px;
+	padding-left: 5px;
+}
+form>.area>textarea{
+	background-color: black;
+	color: white;
+	height: 90px;
+	width: 200px;
+	padding-left: 15px;
+	padding-top: 25px;
+	border: solid white;
+	font-size: 15px;
+	
+}
+.ok{
+	margin-top: 5px;
+	width: 200px;
+	height: 30px;
+}
+.cont{
+	margin-left: 80px;
+}
+.cont>form>h1{
+    text-decoration: line-through;
+	font-size: 25px;
+	color: white;
+	margin-bottom: 25px;
+}
+.cont>form>input{
+	width: 200px;
+}
+.footer>.footer1>.cont>form>input{
+	background-color:black;
+	color: white;
+	border: solid white;
+	height: 30px;
+}
+.send{
+	margin-top: 5px;
+	margin-left: 100px;
+	width: 100px;
+	height: 30px
+}
